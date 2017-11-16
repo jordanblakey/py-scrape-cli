@@ -48,6 +48,8 @@ def scrape(url, soup_query):
 
   # Write to file
   # with open('~/Desktop/soup.html', 'w') as file: file.write(str(soup_query))
+  with open('scraped.html', 'w') as file:
+    file.write(str('Hello!'))
 
 
 scrape(sys.argv[1], sys.argv[2])
