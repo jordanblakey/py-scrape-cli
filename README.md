@@ -1,9 +1,9 @@
 # PyScrape CLI
 
-Simple Python3 script to expose Beautiful Soup to the termlinal.
+Simple web scraping script to expose Beautiful Soup to the terminal.
 
 Scrape.py takes arguments: 1) URL 2) Beautiful Soup query.
-Returns HTML to the terminal & writes to output.html on the Desktop.
+Returns HTML to the terminal & writes to scraped.html on the current directory.
 
 Requires Python3 package Beautiful Soup 4
 Installation: `pip3 install beautifulsoup4`
